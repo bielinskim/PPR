@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>Simple HTTP server - data</title>
+</head>
+
+<body>
+<p>
+    Statyczna strona HTML ze skryptem JavaScript.  <br />
+</p>
+<p>Data/Czas: <span id="datetime"></span></p>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleString();
+</script>
+</body>
+</html>
